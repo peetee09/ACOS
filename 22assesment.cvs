@@ -1,0 +1,27 @@
+while True:
+    print("enter student name and surname")
+    print("enter student grade")
+    print("Enter marks obtained")
+    mark1 = int(input())
+    mark2 = int(input())
+    mark3 = int(input())
+    mark4 = int(input())
+    mark5 = int(input())
+    mark6 = int(input())
+    break
+sum = mark1 + mark2 + mark3 + mark4 + mark5 + mark6
+avarage = sum/2
+if(avarage>=80):
+    print("grade A")
+elif(avarage>75.0):
+    print("grade B")
+elif(avarage>=65.0):
+    print("grade C")
+elif(avarage>55.0):
+    print("grade D")
+elif(avarage>=45.0):
+    print("grade E")
+elif(avarage>=20.0):
+    print("grade F")
+    exit ("y")
+    
